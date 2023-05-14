@@ -1,0 +1,371 @@
+:root {
+  --primary-color: #002e6e;
+  --secondary-color: #00b9f1;
+  --white-color: #fff;
+  --black-color: #000;
+  --menu-hover-color: #dddddd6c;
+}
+
+.overflow {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter-Regular";
+}
+
+@font-face {
+  font-family: "Inter-Black";
+  src: url(../assets/fonts/Inter-Black.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url(../assets/fonts/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Inter-ExtraLight";
+  src: url(../assets/fonts/Inter-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Light";
+  src: url(../assets/fonts/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url(../assets/fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(../assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url(../assets/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Thin";
+  src: url(../assets/fonts/Inter-Thin.ttf);
+}
+
+/* Navbar */
+.p-navbar {
+  padding: 13px 55px;
+  background-color: var(--white-color);
+  font-family: "Inter-Regular";
+}
+
+.p-navbar .logo {
+  height: 55px;
+}
+
+.p-navbar .nav-item {
+  margin: 0px 10px;
+}
+
+.p-navbar .nav-item .nav-link {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--black-color);
+}
+
+.p-navbar .nav-item .nav-link:hover {
+  border-radius: 5px;
+  background-color: var(--menu-hover-color);
+}
+
+.p-navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.p-navbar .dropdown-item {
+  /* background-color: var(--white-color); */
+  padding: 12px 50px 12px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.p-navbar .signin-btn {
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-family: bold;
+  font-family: "Inter-SemiBold";
+  padding-left: 20px;
+  /* padding-right: 20px; */
+}
+
+/* Topbar  */
+.topbar {
+  font-family: "Inter-Medium";
+  background-color: #f6f6f6;
+  height: auto;
+}
+
+.topbar .topbar-text {
+  /* padding: 12px; */
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Header Section */
+.header {
+  /* padding: 13px 55px; */
+  background-color: var(--white-color);
+  font-family: "Inter-Regular";
+  height: auto;
+  padding-left: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0px;
+  padding-right: 0;
+}
+
+.header .header-image {
+  /* margin-left: 100px; */
+  height: 500px;
+  /* margin-right: -30px; */
+}
+
+.header .logo-box {
+  height: 75px;
+  margin-bottom: 50px;
+}
+
+.header .header-title {
+  font-size: 3em;
+  font-family: "Inter-Bold";
+  color: black;
+}
+
+.header .header-desc {
+  font-family: "Inter-Medium";
+  font-size: 20px;
+}
+
+.header .download-btn {
+  background-color: var(--black-color);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-family: "Inter-Medium";
+}
+
+/* Recharge & Bill Payment Section */
+.section-1 {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 50px 50px;
+}
+
+.section-1 .sec-title {
+  font-size: 2.2em;
+  font-family: "Inter-Bold";
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.section-1 .container {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.section-1 .container:hover {
+  background-color: rgba(00, 00, 00, 0.1);
+}
+
+.section-1 .container img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.section-1 .container p {
+  font-size: 14px;
+  font-family: "Inter-Bold";
+}
+
+.section-1 .h-text {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Inter-Medium";
+}
+
+.section-1 .container i {
+  font-size: 10px;
+}
+
+/* Book & Buy Section */
+.section-2 {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 50px 50px;
+}
+
+.section-2 .sec-title {
+  font-size: 2.2em;
+  font-family: "Inter-Bold";
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.section-2 .container {
+  margin: 10px;
+  border-radius: 15px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.section-2 .container:hover {
+  background-color: rgba(00, 00, 00, 0.1);
+}
+
+.section-2 .container img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.section-2 .container p {
+  font-size: 16px;
+  font-family: "Inter-ExtraBold";
+}
+
+.section-2 .h-text {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Inter-Medium";
+}
+
+.section-2 .container i {
+  font-size: 10px;
+}
+
+/* Paytm Payment Instruments */
+.section-3 {
+  background-color: #f5f7fa;
+  color: #000;
+  padding: 50px 100px;
+}
+
+.section-3 .sec-title {
+  font-size: 3em;
+  font-family: "Inter-ExtraBold";
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.section-3 .header-image {
+  /* margin-left: 100px; */
+  height: 430px;
+  /* margin-right: -30px; */
+}
+
+.section-3 .logo-box {
+  height: 75px;
+  margin-bottom: 50px;
+}
+
+.section-3 .header-title {
+  font-size: 2.2em;
+  font-family: "Inter-Bold";
+  color: black;
+}
+
+.section-3 .header-desc {
+  font-family: "Inter-Medium";
+  font-size: 16px;
+}
+
+.section-3 .download-btn {
+  background-color: var(--black-color);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-family: "Inter-Medium";
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-3 .download-btn-2 {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 25px;
+  padding: 10px 30px;
+  font-family: "Inter-Medium";
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-3 .sec-bg {
+  background-color: white;
+  border-radius: 15px;
+  padding: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* footer */
+.foot {
+  padding-top: 100px;
+}
+.footer_sec {
+  font-size: 20px;
+  font-weight: 600;
+  width: 250px;
+  margin-left: 100px;
+  margin-right: -20px;
+  margin-top: -5px;
+  margin-bottom: 50px;
+}
+.col-2 {
+  margin-left: 100px;
+}
+.ad {
+  padding-right: 8px;
+  margin-top: 20px;
+}
+.line {
+  height: 1px;
+  background-color: gray;
+  margin: 0px 00px 50px 00px;
+}
+.blue {
+  background-color: var(--secondary-color);
+  height: 10px;
+}
+.dark-blue {
+  background-color: var(--primary-color);
+  height: 10px;
+}
+.heading{
+  font-size: 15px;
+  font-weight: bolder;
+  
+}
+.content{
+  width: 400px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.foot-content{
+  margin:0px 100px 50px 100px;
+
+}
+.ads{
+  height: 40px;
+  margin: 15px 0px 0px 0px;
+  width: 100px;
+}
